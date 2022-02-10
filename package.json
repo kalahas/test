@@ -62,7 +62,7 @@
 		"install-changed": "1.1.0",
 		"jquery-migrate": "1.4.1",
 		"matchdep": "~2.0.0",
-		"node-sass": "~4.13.1",
+		"node-sass": "~7.0.0",
 		"qunit": "~2.9.0",
 		"sinon": "~9.0.0",
 		"sinon-test": "~3.0.0",
