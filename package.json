@@ -25,6 +25,7 @@
 		"last 2 Opera versions"
 	],
 	"devDependencies": {
+		"@github/copilot-sdk": "1.0.0-beta.8",
 		"@wordpress/custom-templated-path-webpack-plugin": "1.6.0",
 		"@wordpress/dependency-extraction-webpack-plugin": "2.4.0",
 		"@wordpress/e2e-test-utils": "4.3.1",
