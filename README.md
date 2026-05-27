@@ -5,6 +5,7 @@
 Welcome to the WordPress development repository! Please check out the [contributor handbook](https://make.wordpress.org/core/handbook/) for information about how to open bug reports, contribute patches, test changes, write documentation, or get involved in any way you can.
 
 * [Getting Started](#getting-started)
+* [Copilot PPT Generator Example](#copilot-ppt-generator-example)
 * [Credentials](#credentials)
 
 ## Getting Started
@@ -92,6 +93,26 @@ Starting the environment again is a single command:
 ```
 npm run env:start
 ```
+
+## Copilot PPT Generator Example
+
+This repository includes a sample script that uses `@github/copilot-sdk` and `pptxgenjs` to generate a PowerPoint deck from a prompt.
+
+Run it with:
+
+```
+npm run copilot:ppt -- "Create a short project status deck for Q2"
+```
+
+Optional flags:
+
+* `--out <file.pptx>` to choose the output filename (default: `copilot-deck.pptx`)
+* `--model <model-name>` to override the model (default: `gpt-5` or `COPILOT_MODEL`)
+
+Authentication:
+
+* Use your existing Copilot CLI login, or
+* Set `GITHUB_TOKEN` before running the command
 
 ## Credentials
 
